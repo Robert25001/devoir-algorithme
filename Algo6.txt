@@ -1,0 +1,15 @@
+Algorithme CalculMoyenneDesDeuxNotes
+Variable coef1 , coef2 : entier ;
+         n1 , n2 , m : réel ;
+début
+  écrire ("Entrez le premier note: ");
+  lire (n1);
+  écrire ("Entrez le second note: ");
+  lire (n2);
+  écrire ("Entrez le coefficient du premier note: ");
+  lire (coef1);
+  écrire ("Entrez le coefficient du second note: ");
+  lire (coef2);
+  m <- (n1+n2)/(coef1+coef2) ;
+  écrire ("Leur moyenne est ",m);
+ fin

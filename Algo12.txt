@@ -1,0 +1,12 @@
+Algorithme affiche la somme 1+2+3+...+N
+Variable n , i : entier ;
+	 s : réel ;
+Debut
+	afficher("Entrez un nombre N: ") ;
+	lire(n) ;
+	s <- 0 ;
+	Pour (i<-1 ; i<=n ; i<-i+1)
+		s <- s+i ;
+	FinPour
+	afficher("La somme vaut ",s) ;
+Fin

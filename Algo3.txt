@@ -1,0 +1,12 @@
+Algorithme changement de valeur de deux nombres
+Variable a , b , c :entier ;
+Debut
+	afficher("Entrez la valeur de A:") ;
+	lire(a) ;
+	afficher("Entrez la valeur de B:") ;
+	lire(b) ;
+	c <- a ;
+	a <- b ;
+	b <- c ;
+	afficher("La valeur de A est ",a"et la valeur de B est ",b) ;
+Fin

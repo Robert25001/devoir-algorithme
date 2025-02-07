@@ -1,0 +1,17 @@
+Algorithme affiche la somme s=1/1!+1/2!+1/3!+...+1/N!
+Variable n : entier ;
+	 fact , i , s , j : réel ;
+Debut
+	afficher("Entrez la valeur de N: ") ;
+	lire(n) ;
+	s <- 0 ;
+	Pour (i<-1 ; i<=n ; i<-i+1) ;
+		fact <- 1 ;
+		Pour (j<-1 ; j<=i ; j<-j+1)
+			fact <- fact*j ;
+		FinPour
+		s <- s+(1/fact) ;
+	FinPour
+	afficher("s = ",s) ;
+Fin
+	 

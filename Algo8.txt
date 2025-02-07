@@ -1,0 +1,9 @@
+Algorithme Affiche les nombres entre 1 a N
+Variable n , i : entier ;
+Debut
+	afficher("Saisir un nombre N: ") ;
+	lire(n) ;
+	Pour (i<-1 ; i<=n ; i<-i+1)
+		afficher(" ",i) ;
+	FinPour
+Fin

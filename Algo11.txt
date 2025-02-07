@@ -1,0 +1,13 @@
+Algorithme calcul de factoriel de N
+Variable i , n : entier ;
+	 fact : réel ;
+Debut
+	afficher("Saisir un nombre N : ") ;
+	lire(n) ;
+	fact <- 1 ;
+	Pour (i<-1 ; i<=n ; i<-i+1)
+		fact <- fact*i ;
+	FinPour
+	afficher("N!= ",fact) ;
+Fin
+	

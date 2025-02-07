@@ -1,0 +1,18 @@
+Algorithme Determination si deux entier sont premier entre eux ou non
+Variable a , b , r : entier ;
+Debut
+	afficher("Entrez le premier nombre: ") ;
+	lire(a) ;
+	afficher("Entrez le second nombre: ") ;
+	lire(b) ;
+	Faire
+		r <- a%b ;
+		a <- b ;
+		b <- r ;
+	TantQue (r<>0) ;
+	Si (a=1) alors
+		afficher("Ils sont premier entre eux") ;
+		Sinon
+			afficher("Ils ne sont pas premier entre eux") ;
+	FinSi
+Fin

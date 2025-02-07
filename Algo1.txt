@@ -1,0 +1,11 @@
+Algorithme determination si un nombre est positif ou negatif
+Variable n : entier ;
+Debut
+	afficher("Veuillez entrer un nombre:") ;
+	lire (n) ;
+	si (n>0) alors
+		afficher("Ce nombre est positif") ;
+		sinon
+			afficher("Ce nombre est negatif") ;
+	finsi
+Fin

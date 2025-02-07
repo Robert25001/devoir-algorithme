@@ -1,0 +1,9 @@
+Algorithme Affiche le nombre pair compris entre et N
+Variable n , i : entier ;
+Debut
+	afficher("Saisir un nombre N : ") ;
+	lire(n) ;
+	Pour (i<-0 ; i<n ; i<-i+2)
+		afficher(" ",i) ;
+	FinPour
+Fin

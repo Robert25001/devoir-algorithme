@@ -1,0 +1,11 @@
+Algorithme affiche les diviseurs de N
+Variable i , n : entier ;
+Debut
+	afficher("Saisir un nombre N: ") ;
+	lire(n) ;
+	Pour (i<-1 ; i<=n ; i<-i+1)
+		Si (n%i=0)
+			afficher(" ",i) ;
+		FinSi
+	FinPour
+Fin

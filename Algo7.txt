@@ -1,0 +1,21 @@
+Algorithme Affiche la valeur maximum
+variable a , b , c , max : entier ;
+Debut
+	afficher("Entrez la valeur de a:") ;
+	lire (a) ;
+	afficher("Entrez la valeur de b:") ;
+	lire (b) ;
+	afficher("Entrez la valeur de c:") ;
+	lire (c) ;
+	max <- a ;
+	Si (b>max) alors 
+		max <- b ;
+	FinSi
+	Si (c>max) alors
+		max <- c ;
+	FinSi
+	afficher("La valeur maximum est ",max) ;
+Fin
+	
+	
+	

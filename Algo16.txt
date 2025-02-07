@@ -1,0 +1,16 @@
+Algorithme affiche la somme s=1!+2!+3!+...+N!
+Variable i , n : entier ;
+	 s , j , fact : réel ;
+Debut
+	afficher("Entrez un nombre N: ") ;
+	lire(n) ;
+	s <- 0 ;
+	Pour (i<-1 ; i<=n ; i<-i+1 )
+		fact <- 1 ;
+		Pour (j<-1 ; j<=i ; j<-j+1)
+			fact <- fact*j ;
+		FinPour
+		s <- s+fact ;
+	FinPour
+	afficher("La somme vaut ",s) ;
+Fin

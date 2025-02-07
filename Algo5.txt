@@ -1,0 +1,28 @@
+Algorithme Resolution de l'equation seconde degree
+variable a , b , c , delta , x , x1 , x2 , x3 , x4 : réel ;
+Debut
+	afficher("Ax^2 + Bx + C = 0") ;
+	afficher("Entrez la valeur de A:") ;
+	lire(a) ;
+	afficher("Entrez la valeur de B:") ;
+	lire(b) ;
+	afficher("Entrez la valeur de C:") ;
+	lire(c) ;
+	delta <- (b^2) - (4*a*c) ;
+	x <- (-c)/b ;
+	x1 <- (-b-sqrt(delta))/(2*a) ;
+	x2 <- (-b+sqrt(delta))/(2*a) ;
+	x3 <- (-b)/(2*a) ;
+	x4 <- (sqrt(-delta))/(2*a) ;
+	si (a=0) alors
+		afficher("Solution: ",x) ;
+		sinon si (delta>0) alors
+			afficher("Solutions: ",x1"et ",x2) ;
+			sinon si (delta<0) alors
+				afficher("Solutions complexes: ",x3" -i ",x4"et ",x3" +i ",x4) ;
+				sinon
+				 afficher("Solution: ",x3) ;
+			finsi
+		finsi
+	finsi
+Fin

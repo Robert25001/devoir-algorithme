@@ -1,0 +1,13 @@
+Algorithme signe de produit de deux nombres
+variable a , b :entier ;
+Debut
+	afficher("Entrez le premier nombre:") ;
+	lire(a) ;
+	afficher("Entrez le second nombre:") ;
+	lire(b) ;
+	si (a<0 ET b<0 OU a>0 ET b>0) alors
+		afficher("Leur produit est positif") ;
+		sinon
+			afficher("Leur produit est negatif") ;
+	finsi
+Fin

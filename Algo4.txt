@@ -1,0 +1,11 @@
+Algorithme somme et moyenne
+Variable n1 , n2 , s , m :réel ;
+Debut
+	afficher("Entrez la premiere note:") ;
+	lire(n1) ;
+	afficher("Entrez la deuxieme note:") ;
+	lire(n2) ;
+	s <- n1+n2 ;
+	m <- s/2 ;
+	afficher("Leur somme est ",s"et leur moeyenne est ",m) ;
+Fin

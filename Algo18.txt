@@ -1,0 +1,14 @@
+Algorithme determination de PDCG de deux entiers
+Variable a , b , r : entier ;
+Debut
+	afficher("Saisir le premier nombre: ") ;
+	lire(a) ;
+	afficher("Saisir le second nombre: ") ;
+	lire(b) ;
+	Faire
+		r <- a%b ;
+		a <- b ;
+		b <- r ;
+	TantQue (r<>0) ;
+	afficher("Leur pgcd est ",a) ;
+Fin
